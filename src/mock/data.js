@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
+  title: 'Wangdi Tenzing ', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
   description: '', // e.g: Welcome to my website
 };
@@ -10,8 +10,8 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
+  name: 'Wangdi Tenzing ',
+  subtitle: 'Full Stack Web Developer',
   cta: '',
 };
 
@@ -21,37 +21,48 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/10_V6M6z5N6h4TJ6LH1Wc9zJPxCZI_tnF/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'paisaproject.jpg',
+    title: 'Paisa ',
+    info: 'Virtual Banking Made Easy ',
+    info2: 'A React App designed with CSS',
+    url: 'https://paisa.netlify.app/',
+    repo: 'https://github.com/ZIng178/paisa', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'kbcproject.jpg',
+    title: ' Who wants to be a Millionare? ',
+    info:
+      ' A fun React Game clone of the famous television game show Who wants to be a Millionare ',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://whowantstobeamillionare.netlify.app',
+    repo: 'https://github.com/ZIng178/quix', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'techstuffproject.jpg',
+    title: 'Use My Tech Stuff',
+    info: 'An air bnb like platform for your expensive gadgets',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://marketing-page-opal.vercel.app/',
+    repo: 'https://github.com/bwptpt-use-my-tech-stuff-2', // if no repo, the button will not show up
+  },
+
+  {
+    id: nanoid(),
+    img: 'techstuffproject.jpg',
+    title: 'Use My Tech Stuff',
+    info: 'An air bnb like platform for your expensive gadgets',
+    info2: '',
+    url: 'https://marketing-page-opal.vercel.app/',
+    repo: 'https://github.com/bwptpt-use-my-tech-stuff-2', // if no repo, the button will not show up
   },
 ];
 
@@ -90,5 +101,5 @@ export const footerData = {
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
