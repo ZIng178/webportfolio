@@ -54,16 +54,6 @@ export const projectsData = [
     url: 'https://marketing-page-opal.vercel.app/',
     repo: 'https://github.com/bwptpt-use-my-tech-stuff-2', // if no repo, the button will not show up
   },
-
-  {
-    id: nanoid(),
-    img: 'techstuffproject.jpg',
-    title: 'Use My Tech Stuff',
-    info: 'An air bnb like platform for your expensive gadgets',
-    info2: '',
-    url: 'https://marketing-page-opal.vercel.app/',
-    repo: 'https://github.com/bwptpt-use-my-tech-stuff-2', // if no repo, the button will not show up
-  },
 ];
 
 // CONTACT DATA
