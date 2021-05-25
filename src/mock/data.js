@@ -70,7 +70,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'wangdi457@gmail.com',
 };
 
 // FOOTER DATA
