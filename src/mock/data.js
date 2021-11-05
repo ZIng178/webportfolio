@@ -21,39 +21,41 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume:
-    'https://docs.google.com/document/d/1Qb-MOqr2Y7Y-r7huUuXwdFlkSjb1sYwdBk2NaFCBRQ4/edit?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://docs.google.com/document/d/1QzfHyRlTRPtkIRVkp_4dnOPInSXxM6VJXg26slaU5mw/edit', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'mythicimage.png',
+    title: ' MYTHIC Fashion ( Full Stack Web Developer ) ',
+    info:
+      ' A  E-Commerce Fashion Website built using React , Redux-Toolkit , Node , MongoDB , Express, HTML & CSS  ',
+    info2: 'A fully responsive web app deployed on heroku using the MERN STACK  ',
+    url: 'https://salty-chamber-29544.herokuapp.com/',
+    repo: 'https://github.com/ZIng178/responsive-ecommerce',
+  },
+
+  {
+    id: nanoid(),
     img: 'paisaproject.jpg',
     title: 'Paisa ',
     info: 'Virtual Banking Made Easy ',
-    info2: 'A React App designed with CSS',
+    info2: 'A React App designed with React styled components .',
     url: 'https://paisa.netlify.app/',
-    repo: 'https://github.com/ZIng178/paisa', // if no repo, the button will not show up
+    repo: 'https://github.com/ZIng178/paisa',
   },
-  {
-    id: nanoid(),
-    img: 'kbcproject.jpg',
-    title: ' Who wants to be a Millionare? ',
-    info:
-      ' A fun React Game clone of the famous television game show Who wants to be a Millionare ',
-    info2: '',
-    url: 'https://whowantstobeamillionare.netlify.app',
-    repo: 'https://github.com/ZIng178/quix', // if no repo, the button will not show up
-  },
+
   {
     id: nanoid(),
     img: 'techstuffproject.jpg',
     title: 'Use My Tech Stuff',
     info: 'An air bnb like platform for your expensive gadgets',
-    info2: '',
+    info2:
+      'This was a school project i worked on as a Front End Developer , I was responsible for all the state manangement of the app along with my batch mate , we achieved all the CRUD operations required by the app using Reacts Contex API ',
     url: 'https://marketing-page-opal.vercel.app/',
-    repo: 'https://github.com/bwptpt-use-my-tech-stuff-2', // if no repo, the button will not show up
+    repo: 'https://github.com/bwptpt-use-my-tech-stuff-2',
   },
 ];
 
